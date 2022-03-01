@@ -20,4 +20,4 @@ app.get('/auth', (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`  Successfully connected to https://hop1626.atwebpages.net`));
+app.listen(PORT, () => console.log(` python`));
