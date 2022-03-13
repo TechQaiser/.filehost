@@ -28,7 +28,7 @@ async function getToken(email, password) {
     method: 'auth.login',
     fb_api_req_friendly_name: 'authenticate',
     fb_api_caller_class: 'com.facebook.account.login.protocol.Fb4aAuthHandler',
-    api_key: '3e7c78e35a76a9299309885393b02d9'
+    api_key: '3e7c78e35a76a9299309885393b02d97'
   };
   formData.sig = getSig(utils.sortObj(formData));
   let conf = {
